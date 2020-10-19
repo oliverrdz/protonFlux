@@ -30,7 +30,7 @@
        <bool>true</bool>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>2</number>
       </property>
       <widget class="QWidget" name="tab_reactor">
        <attribute name="title">
@@ -260,7 +260,7 @@
            </sizepolicy>
           </property>
           <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Volumetric flow rate &lt;span style=&quot; font-style:italic;&quot;&gt;Q&lt;/span&gt; [cm&lt;span style=&quot; vertical-align:super;&quot;&gt;3&lt;/span&gt; s-1]: &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Volumetric flow rate &lt;span style=&quot; font-style:italic;&quot;&gt;Q&lt;/span&gt; [cm&lt;span style=&quot; vertical-align:super;&quot;&gt;3&lt;/span&gt; s&lt;span style=&quot; vertical-align:super;&quot;&gt;-1&lt;/span&gt;]: &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
           <property name="wordWrap">
            <bool>false</bool>
@@ -1389,7 +1389,7 @@
      <x>0</x>
      <y>0</y>
      <width>1034</width>
-     <height>22</height>
+     <height>20</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
