@@ -6,6 +6,7 @@ For regular use, go to the releases page and select the latest release appropria
 
 ## Coding
 For code development, download the source code and install the dependencies via pip:
+
 ``python
 pip3 install numpy
 pip3 install matplotlib
