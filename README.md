@@ -7,13 +7,11 @@ For regular use, go to the releases page and select the latest release appropria
 ## Coding
 For code development, download the source code and install the dependencies via pip:
 
-``python
+```python
 pip3 install numpy
-
 pip3 install matplotlib
-
 pip3 install pyqt5
-``
+```
 
 ## Contributors
 Proton Flux was designed by [Luis Fernando Arenas](https://twitter.com/LF_Arenas) and written in Python by [Oliver Rodriguez](https://twitter.com/ol1v3r).
