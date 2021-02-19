@@ -66,6 +66,6 @@ class Ui_About(object):
         self.label_3.setText(_translate("About", "<html><head/><body><p align=\"justify\">Free and open source educational tool to study reactant conversion in electrochemical reactors and flow cells operating under full mass transfer control.</p></body></html>"))
         self.label_5.setText(_translate("About", "<html><head/><body><p>Visit <a href=\"http://echemsoft.xyz\"><span style=\" text-decoration: underline; color:#0000ff;\">https://oliverrdz.xyz/proton-flux</span></a></p></body></html>"))
         self.label_7.setText(_translate("About", "<html><head/><body><p>Copyright © 2020 <a href=\"mailto:oliver.rdz.mtz@gmail.com\"><span style=\" text-decoration: underline; color:#0000ff;\">Oliver Rodríguez</span></a>, <a href=\"fernando2113@gmail.com\"><span style=\" text-decoration: underline; color:#0000ff;\">Luis Fernando Arenas</span></a></p></body></html>"))
-        self.label_4.setText(_translate("About", "v0.0.1"))
+        self.label_4.setText(_translate("About", "v0.1"))
         self.label_6.setText(_translate("About", "Licensed under GPL v3"))
         self.label_2.setText(_translate("About", "Proton Flux"))
