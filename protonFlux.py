@@ -77,7 +77,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
             v = self.lblReactor_v.text()
             Q = self.lblReactor_Q.text()
             QA = self.lblReactor_QA.text()
-            h1 = "Data generated from Proton Flux v0.0.1.\n"
+            h1 = "Data generated from Proton Flux v0.0.1.\nFor more info visit https://oliverrdz.xyz/proton-flux\n\n"
             h2 = "Reactor parameters:\n"
             h3 = "B = "+B+" cm\nS = "+S+" cm\nL = "+L+" cm\neps = "+eps+"\nQA = "+QA_input+" cm3/s\nQv = "+Qv_input+" cm3/s\nv = "+v_input+" cm/s\n\n"
             h4 = "Results:\n"
@@ -98,7 +98,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
             XA = self.lblPFRsp_XA.text()
             tauR = self.lblPFRsp_tauR.text()
             tauT = self.lblPFRsp_tauT.text()
-            h1 = "Data generated from Proton Flux v0.0.1.\n"
+            h1 = "Data generated from Proton Flux v0.0.1.\nFor more info visit https://oliverrdz.xyz/proton-flux\n\n"
             h2 = "PFR Single pass parameters:\n"
             h3 = "kmA = "+kmA+" cm3/s\nkmAe = "+kmAe+" 1/s\nQv = "+Qv+" cm3/s\nVR = "+VR+" cm3\nVE = "+VE+" cm3\nVT = "+VT+" cm3\nCin = "+Cin+" mol/dm3\n\n"
             h4 = "Results:\n"
@@ -121,7 +121,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
             tauR = self.lblPFRbr_tauR.text()
             tauT = self.lblPFRbr_tauT.text()
             
-            h1 = "Data generated from Proton Flux v0.0.1.\n"
+            h1 = "Data generated from Proton Flux v0.0.1.\nFor more info visit https://oliverrdz.xyz/proton-flux\n\n"
             h2 = "PFR in Batch Recirculation parameters:\n"
             h3 = "kmA = "+kmA+" cm3/s\nkmAe = "+kmAe+" 1/s\nQv = "+Qv+" cm3/s\nVR = "+VR+" cm3\nVE = "+VE+" cm3\nVT = "+VT+" cm3\nCin0 = "+Cin0+" mol/dm3\n\n"
             h4 = "Results:\n"
