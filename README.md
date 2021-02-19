@@ -9,7 +9,9 @@ For code development, download the source code and install the dependencies via 
 
 ``python
 pip3 install numpy
+
 pip3 install matplotlib
+
 pip3 install pyqt5
 ``
 
