@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>685</width>
+    <height>280</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -17,13 +17,13 @@
    </sizepolicy>
   </property>
   <property name="windowTitle">
-   <string>About Proton Flux</string>
+   <string>About ProtonFlux</string>
   </property>
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>110</y>
+     <x>300</x>
+     <y>100</y>
      <width>361</width>
      <height>91</height>
     </rect>
@@ -50,40 +50,40 @@
   <widget class="QLabel" name="label_5">
    <property name="geometry">
     <rect>
-     <x>70</x>
-     <y>240</y>
+     <x>350</x>
+     <y>230</y>
      <width>251</width>
      <height>20</height>
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Visit &lt;a href=&quot;http://echemsoft.xyz&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://oliverrdz.xyz/proton-flux&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Visit https://oliverrdz.xyz/proton-flux&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_7">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>210</y>
+     <x>290</x>
+     <y>200</y>
      <width>391</width>
      <height>20</height>
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Copyright © 2020 &lt;a href=&quot;mailto:oliver.rdz.mtz@gmail.com&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Oliver Rodríguez&lt;/span&gt;&lt;/a&gt;, &lt;a href=&quot;fernando2113@gmail.com&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Luis Fernando Arenas&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Copyright © 2020 Oliver Rodriguez, Luis Fernando Arenas&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>160</x>
-     <y>90</y>
+     <x>440</x>
+     <y>100</y>
      <width>64</width>
      <height>17</height>
     </rect>
    </property>
    <property name="text">
-    <string>v0.1</string>
+    <string>v1.0</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>
@@ -92,8 +92,8 @@
   <widget class="QLabel" name="label_6">
    <property name="geometry">
     <rect>
-     <x>120</x>
-     <y>190</y>
+     <x>400</x>
+     <y>180</y>
      <width>161</width>
      <height>17</height>
     </rect>
@@ -102,13 +102,42 @@
     <string>Licensed under GPL v3</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_2">
+  <widget class="Line" name="line">
    <property name="geometry">
     <rect>
-     <x>130</x>
-     <y>40</y>
-     <width>161</width>
-     <height>31</height>
+     <x>370</x>
+     <y>80</y>
+     <width>201</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>261</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="icons.qrc">:/logo/logo.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_webpage">
+   <property name="geometry">
+    <rect>
+     <x>372</x>
+     <y>20</y>
+     <width>201</width>
+     <height>61</height>
     </rect>
    </property>
    <property name="font">
@@ -118,23 +147,12 @@
     </font>
    </property>
    <property name="text">
-    <string>Proton Flux</string>
-   </property>
-  </widget>
-  <widget class="Line" name="line">
-   <property name="geometry">
-    <rect>
-     <x>110</x>
-     <y>70</y>
-     <width>191</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="orientation">
-    <enum>Qt::Horizontal</enum>
+    <string>ProtonFlux</string>
    </property>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
  <connections/>
 </ui>
