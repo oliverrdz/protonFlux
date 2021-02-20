@@ -1,4 +1,4 @@
-# Proton Flux v0.1
+# Proton Flux v1.0
 Proton Flux is a free and open source educational tool to study reactant conversion in electrochemical reactors and flow cells operating under full mass transfer control.
 
 ## Download
@@ -9,8 +9,8 @@ For code development, download the source code and install the dependencies via 
 
 ```python
 pip3 install numpy
-pip3 install matplotlib
 pip3 install pyqt5
+pip3 install pyqtgraph
 ```
 
 ## Contributors
