@@ -1,4 +1,4 @@
-# Proton Flux v1.0
+# ProtonFlux v1.0
 Proton Flux is a free and open source educational tool to study reactant conversion in electrochemical reactors and flow cells operating under full mass transfer control.
 
 ## Download
