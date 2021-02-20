@@ -1,13 +1,18 @@
 import sys
 from PyQt5 import QtWidgets, uic
 from PyQt5.QtWidgets import (QFileDialog)
-from pathlib import Path
 
 import icons_rc
 
 import numpy as np
-import matplotlib.pyplot as plt
+import pyqtgraph as pg
+from pyqtgraph.Qt import QtCore, QtGui 
 import webbrowser
+
+# Change all plots:
+pg.setConfigOption('background', 'w')
+pg.setConfigOption('foreground', 'k')
+
 
 class MainWindow(QtWidgets.QMainWindow):
     def __init__(self, *args, **kwargs):
@@ -275,25 +280,17 @@ class MainWindow(QtWidgets.QMainWindow):
         self.lblPFRbr_tauR.setText("{:.2f}".format(tauR))
         self.lblPFRbr_tauT.setText("{:.2f}".format(tauT))
         # Plots:
-        plt.figure(1)
-        plt.plot(self.t/60, self.X)
-        plt.xlabel("$t$ / min", fontsize = 18)
-        plt.ylabel("$X_{BR, t}^{PFR}$", fontsize = 18)
-        plt.xticks(fontsize = 14)
-        plt.yticks(fontsize = 14)
-        plt.grid()
-        plt.tight_layout()
+        plt1 = pg.plot()
+        plt1.showGrid(x=True, y=True)
+        plt1.setLabel('left', 'X<sub>BR, t</sub><sup>PFR</sup>')
+        plt1.setLabel('bottom', 't', units='s')
+        plt1.plot(self.t, self.X, pen=pg.mkPen('k', width=3), clear=True)
         
-        plt.figure(2)
-        plt.plot(self.t/60, self.Cin)
-        plt.xlabel("$t$ / min", fontsize = 18)
-        plt.ylabel("$C_{in}$ / mol dm$^{-3}$", fontsize = 18)
-        plt.xticks(fontsize = 14)
-        plt.yticks(fontsize = 14)
-        plt.grid()
-        plt.tight_layout()
-        
-        plt.show()
+        plt2 = pg.plot()
+        plt2.showGrid(x=True, y=True)
+        plt2.setLabel('left', 'C<sub>in</sub>', units='M')
+        plt2.setLabel('bottom', 't', units='s')
+        plt2.plot(self.t, self.Cin*1e3, pen=pg.mkPen('k', width=3), clear=True)
         
         
 class About_dialog(QtWidgets.QDialog):
