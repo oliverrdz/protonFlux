@@ -34,7 +34,7 @@
        <bool>true</bool>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>2</number>
       </property>
       <widget class="QWidget" name="tab_reactor">
        <attribute name="title">
@@ -902,7 +902,7 @@
           <item>
            <widget class="QLabel" name="label_2">
             <property name="text">
-             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Volumetric mass trans. coeff. &lt;span style=&quot; font-style:italic;&quot;&gt;k&lt;/span&gt;&lt;span style=&quot; font-style:italic; vertical-align:sub;&quot;&gt;m&lt;/span&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;A&lt;/span&gt;&lt;span style=&quot; font-style:italic; vertical-align:sub;&quot;&gt;e&lt;/span&gt; [cm&lt;span style=&quot; vertical-align:super;&quot;&gt;3&lt;/span&gt; s&lt;span style=&quot; vertical-align:super;&quot;&gt;-1&lt;/span&gt;]:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Volumetric mass trans. coeff. &lt;span style=&quot; font-style:italic;&quot;&gt;k&lt;/span&gt;&lt;span style=&quot; font-style:italic; vertical-align:sub;&quot;&gt;m&lt;/span&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;A&lt;/span&gt;&lt;span style=&quot; font-style:italic; vertical-align:sub;&quot;&gt;e&lt;/span&gt; [s&lt;span style=&quot; vertical-align:super;&quot;&gt;-1&lt;/span&gt;]:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
             </property>
            </widget>
           </item>
@@ -1357,7 +1357,7 @@
           <item>
            <widget class="QLabel" name="label_31">
             <property name="text">
-             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Volumetric mass trans. coeff. &lt;span style=&quot; font-style:italic;&quot;&gt;k&lt;/span&gt;&lt;span style=&quot; font-style:italic; vertical-align:sub;&quot;&gt;m&lt;/span&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;A&lt;/span&gt;&lt;span style=&quot; font-style:italic; vertical-align:sub;&quot;&gt;e&lt;/span&gt; [cm&lt;span style=&quot; vertical-align:super;&quot;&gt;3&lt;/span&gt; s&lt;span style=&quot; vertical-align:super;&quot;&gt;-1&lt;/span&gt;]:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Volumetric mass trans. coeff. &lt;span style=&quot; font-style:italic;&quot;&gt;k&lt;/span&gt;&lt;span style=&quot; font-style:italic; vertical-align:sub;&quot;&gt;m&lt;/span&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;A&lt;/span&gt;&lt;span style=&quot; font-style:italic; vertical-align:sub;&quot;&gt;e&lt;/span&gt; [s&lt;span style=&quot; vertical-align:super;&quot;&gt;-1&lt;/span&gt;]:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
             </property>
            </widget>
           </item>
